@@ -1,0 +1,154 @@
+|Name,Id,SubTypeName,SubType,Datatype,Length|
+Note Off,0x80,-1,-1,int,2|
+Note Off,0x81,-1,-1,int,2|
+Note Off,0x82,-1,-1,int,2|
+Note Off,0x83,-1,-1,int,2|
+Note Off,0x84,-1,-1,int,2|
+Note Off,0x85,-1,-1,int,2|
+Note Off,0x86,-1,-1,int,2|
+Note Off,0x87,-1,-1,int,2|
+Note On,0x90,-1,-1,int,2|
+Note On,0x91,-1,-1,int,2|
+Note On,0x92,-1,-1,int,2|
+Note On,0x93,-1,-1,int,2|
+Note On,0x94,-1,-1,int,2|
+Note On,0x95,-1,-1,int,2|
+Note On,0x96,-1,-1,int,2|
+Note On,0x97,-1,-1,int,2|
+Note Aftertouch,0xA0,-1,-1,int,2|
+Note Aftertouch,0xA1,-1,-1,int,2|
+Note Aftertouch,0xA2,-1,-1,int,2|
+Note Aftertouch,0xA3,-1,-1,int,2|
+Note Aftertouch,0xA4,-1,-1,int,2|
+Note Aftertouch,0xA5,-1,-1,int,2|
+Note Aftertouch,0xA6,-1,-1,int,2|
+Note Aftertouch,0xA7,-1,-1,int,2|
+Controller,0xB0,Blank Select,0x00,int,2|
+Controller,0xB0,Modulation,0x01,int,2|
+Controller,0xB0,Breath Controller,0x02,int,2|
+Controller,0xB0,Foot Controller,0x04,int,2|
+Controller,0xB0,Portamento Time,0x05,int,2|
+Controller,0xB0,Data Entry MSB,0x06,int,2|
+Controller,0xB0,Main Volume,0x07,int,2|
+Controller,0xB0,Balance,0x08,int,2|
+Controller,0xB0,Pan,0x0A,int,2|
+Controller,0xB0,Expression Controller,0x0B,int,2|
+Controller,0xB0,Effect Control 1,0x0C,int,2|
+Controller,0xB0,Effect Control 2,0x0D,int,2|
+Controller,0xB0,General Purpose Controller 1,0x10,int,2|
+Controller,0xB0,General Purpose Controller 2,0x11,int,2|
+Controller,0xB0,General Purpose Controller 3,0x12,int,2|
+Controller,0xB0,General Purpose Controller 4,0x13,int,2|
+Controller,0xB0,LSB for controllers 0,0x20,int,2|
+Controller,0xB0,LSB for controllers 1,0x21,int,2|
+Controller,0xB0,LSB for controllers 2,0x22,int,2|
+Controller,0xB0,LSB for controllers 3,0x23,int,2|
+Controller,0xB0,LSB for controllers 4,0x24,int,2|
+Controller,0xB0,LSB for controllers 5,0x25,int,2|
+Controller,0xB0,LSB for controllers 6,0x26,int,2|
+Controller,0xB0,LSB for controllers 7,0x27,int,2|
+Controller,0xB0,LSB for controllers 8,0x28,int,2|
+Controller,0xB0,LSB for controllers 9,0x29,int,2|
+Controller,0xB0,LSB for controllers 10,0x2A,int,2|
+Controller,0xB0,LSB for controllers 11,0x2B,int,2|
+Controller,0xB0,LSB for controllers 12,0x2C,int,2|
+Controller,0xB0,LSB for controllers 13,0x2D,int,2|
+Controller,0xB0,LSB for controllers 14,0x2E,int,2|
+Controller,0xB0,LSB for controllers 15,0x2F,int,2|
+Controller,0xB0,LSB for controllers 16,0x30,int,2|
+Controller,0xB0,LSB for controllers 17,0x31,int,2|
+Controller,0xB0,LSB for controllers 18,0x32,int,2|
+Controller,0xB0,LSB for controllers 19,0x33,int,2|
+Controller,0xB0,LSB for controllers 20,0x34,int,2|
+Controller,0xB0,LSB for controllers 21,0x35,int,2|
+Controller,0xB0,LSB for controllers 22,0x36,int,2|
+Controller,0xB0,LSB for controllers 23,0x37,int,2|
+Controller,0xB0,LSB for controllers 24,0x38,int,2|
+Controller,0xB0,LSB for controllers 25,0x39,int,2|
+Controller,0xB0,LSB for controllers 26,0x3A,int,2|
+Controller,0xB0,LSB for controllers 27,0x3B,int,2|
+Controller,0xB0,LSB for controllers 28,0x3C,int,2|
+Controller,0xB0,LSB for controllers 29,0x3D,int,2|
+Controller,0xB0,LSB for controllers 30,0x3E,int,2|
+Controller,0xB0,LSB for controllers 31,0x3F,int,2|
+Controller,0xB0,Damper pedal ,0x40,int,2|
+Controller,0xB0,Portamento,0x41,int,2|
+Controller,0xB0,Sostenuto,0x42,int,2|
+Controller,0xB0,Soft Pedal,0x43,int,2|
+Controller,0xB0,Legato Footswitch,0x44,int,2|
+Controller,0xB0,Hold 2,0x45,int,2|
+Controller,0xB0,Sound Controller 1,0x46,int,2|
+Controller,0xB0,Sound Controller 2,0x47,int,2|
+Controller,0xB0,Sound Controller 3 ,0x48,int,2|
+Controller,0xB0,Sound Controller 4 ,0x49,int,2|
+Controller,0xB0,Sound Controller 5,0x4A,int,2|
+Controller,0xB0,Sound Controller 6,0x4B,int,2|
+Controller,0xB0,Sound Controller 7,0x4C,int,2|
+Controller,0xB0,Sound Controller 8,0x4D,int,2|
+Controller,0xB0,Sound Controller 9,0x4E,int,2|
+Controller,0xB0,Sound Controller 10,0x4F,int,2|
+Controller,0xB0,General-Purpose Controllers 5,0x50,int,2|
+Controller,0xB0,General-Purpose Controllers 6,0x51,int,2|
+Controller,0xB0,General-Purpose Controllers 7,0x52,int,2|
+Controller,0xB0,General-Purpose Controllers 8,0x53,int,2|
+Controller,0xB0,Portamento Control,0x54,int,2|
+Controller,0xB0,Effects 1 Depth ,0x5B,int,2|
+Controller,0xB0,Effects 2 Depth,0x5C,int,2|
+Controller,0xB0,Effects 3 Depth,0x5D,int,2|
+Controller,0xB0,Effects 4 Depth,0x5E,int,2|
+Controller,0xB0,Effects 5 Depth,0x5F,int,2|
+Controller,0xB0,Data Increment,0x60,int,2|
+Controller,0xB0,Data Decrement,0x61,int,2|
+Controller,0xB0,Non-Registered Parameter Number (LSB),0x62,int,2|
+Controller,0xB0,Non-Registered Parameter Number (MSB),0x63,int,2|
+Controller,0xB0,Registered Parameter Number (LSB),0x64,int,2|
+Controller,0xB0,Registered Parameter Number (MSB),0x65,int,2|
+Controller,0xB1,Mode Messages,0x79,int,2|
+Controller,0xB2,Mode Messages,0x7A,int,2|
+Controller,0xB3,Mode Messages,0x7B,int,2|
+Controller,0xB4,Mode Messages,0x7C,int,2|
+Controller,0xB5,Mode Messages,0x7D,int,2|
+Controller,0xB6,Mode Messages,0x7E,int,2|
+Controller,0xB7,Mode Messages,0x7F,int,2|
+Program Change,0xC0,-1,-1,int,1|
+Program Change,0xC1,-1,-1,int,1|
+Program Change,0xC2,-1,-1,int,1|
+Program Change,0xC3,-1,-1,int,1|
+Program Change,0xC4,-1,-1,int,1|
+Program Change,0xC5,-1,-1,int,1|
+Program Change,0xC6,-1,-1,int,1|
+Program Change,0xC7,-1,-1,int,1|
+Channel Aftertouch,0xD0,-1,-1,int,1|
+Channel Aftertouch,0xD1,-1,-1,int,1|
+Channel Aftertouch,0xD2,-1,-1,int,1|
+Channel Aftertouch,0xD3,-1,-1,int,1|
+Channel Aftertouch,0xD4,-1,-1,int,1|
+Channel Aftertouch,0xD5,-1,-1,int,1|
+Channel Aftertouch,0xD6,-1,-1,int,1|
+Channel Aftertouch,0xD7,-1,-1,int,1|
+Pitch Bend,0xE0,-1,-1,int,2|
+Pitch Bend,0xE1,-1,-1,int,2|
+Pitch Bend,0xE2,-1,-1,int,2|
+Pitch Bend,0xE3,-1,-1,int,2|
+Pitch Bend,0xE4,-1,-1,int,2|
+Pitch Bend,0xE5,-1,-1,int,2|
+Pitch Bend,0xE6,-1,-1,int,2|
+Pitch Bend,0xE7,-1,-1,int,2|
+Normal SysEx Contn,0xF0,-1,-1,int,-1|
+Normal SysEx Escape,0xF7,-1,-1,int,-1|
+Meta Event,0xFF,Sequence Number,0x00,int,2|
+Meta Event,0xFF,Text Event,0x01,string,-1|
+Meta Event,0xFF,Copyright Notice,0x02,string,-1|
+Meta Event,0xFF,Track Name,0x03,string,-1|
+Meta Event,0xFF,Instrument Name,0x04,string,-1|
+Meta Event,0xFF,Lyrics,0x05,string,-1|
+Meta Event,0xFF,Marker,0x06,string,-1|
+Meta Event,0xFF,Cue Point,0x07,string,-1|
+Meta Event,0xFF,Midi Channel Prefix,0x20,int,1|
+Meta Event,0xFF,Midi Port,0x21,int,1|
+Meta Event,0xFF,End of Track,0x2F,none,0|
+Meta Event,0xFF,Tempo,0x51,int,1|
+Meta Event,0xFF,SMPTE Offset,0x54,int,5|
+Meta Event,0xFF,Time Signature,0x58,int,4|
+Meta Event,0xFF,Key Signature,0x59,int,2|
+Meta Event,0xFF,Sequence Specific,0x7F,any,-1|
